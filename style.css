@@ -1,0 +1,98 @@
+:root{
+    --red:#dc3545;
+}
+
+/* --------------------------------------------------------- */
+/*          -------------- 1- NAVBAR --------------          */
+/* --------------------------------------------------------- */
+
+/* --------------------------------------------------------- */
+/*         -------------- 2- BANNER --------------           */
+/* --------------------------------------------------------- */
+
+.banner{
+    background-image: url(./img/banner.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 20%;
+    color: purple;
+    
+}
+
+/* --------------------------------------------------------- */
+/*         -------------- 3- SERVICES --------------         */
+/* ---------------------------------------------------------*/
+
+
+.circle{
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    color: #fff;
+    background-color: var(--red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --------------------------------------------------------- */
+/*         -------------- 4- PORTFOLIO --------------        */
+/* --------------------------------------------------------- */
+
+.card-img-top{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.about-text{
+    /* border: 1px solid red; */
+    width: 75%;
+    margin: auto;
+    text-align: justify;
+
+}
+
+/* --------------------------------------------------------- */
+/*         -------------- 6- TEAM --------------             */
+/* --------------------------------------------------------- */
+
+.team img{
+    width: 250px;
+    border: 10px solid #cccccc;
+}
+
+a.social{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #333;
+    line-height: 40px;
+}
+/* ------ ------ ---------------------- */
+/*         -------------- 7- CLIENT --------------           */
+/* ---- ------------------------------ */
+
+.client img{
+    height: auto;
+    max-height: 50px;
+}
+
+/* --------------------------------------------------------- */
+/*         -------------- 8- CONTACT --------------          */
+/* --------------------------------------------------------- */
+
+.contact {
+    background: url("./img/map.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: #eee;
+}
